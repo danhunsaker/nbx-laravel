@@ -1,0 +1,4 @@
+.git/
+laradock/
+tests/
+phpunit.xml

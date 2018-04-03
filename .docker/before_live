@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+echo "upstream php-upstream { server ${MESH_PORTAL_HOST}:9000; }" > /etc/nginx/conf.d/upstream.conf
+nginx -s reload
