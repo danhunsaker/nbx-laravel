@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+# Run after_live_all hooks first:
+${0}_all
+
+# after_live hooks:

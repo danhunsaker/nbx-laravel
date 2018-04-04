@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+# Run before_live_all hooks first:
+${0}_all
+
+# before_live hooks:
+php /var/www/html/artisan migrate --force
