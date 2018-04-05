@@ -1,0 +1,12 @@
+{
+  "resources": [
+    {
+      "id": "db",
+      "image": "nanobox/mysql:5.7"
+    },
+    {
+      "id": "redis",
+      "image": "nanobox/redis:4.0"
+    }
+  ]
+}
